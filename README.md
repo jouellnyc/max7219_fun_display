@@ -33,11 +33,13 @@ The ESP32-S3-BOX Lite has a limited number of "safe" and accessible GPIO pins fo
 
 **Connect the MAX7219 modules (chained together) to your ESP32-S3-BOX Lite as follows:**
 
-* **MAX7219 DIN (Data In)** → **RP2040-Zero MOSI/Pin 3 ** 
-* **MAX7219 CLK (Clock)** → **RP2040-Zero SCK/Pin 2** 
-* **MAX7219 CS (Chip Select)** → **RP2040-Zero Pin 1** (on J2 header)
-* **MAX7219 VCC** → **RP2040-Zero 5V** 
-* **MAX7219 GND** → **RP2040-Zero GND**
+| MAX7219 Pin      | RP2040-Zero Connection        |
+| :--------------- | :---------------------------- |
+| **DIN (Data In)** | **MOSI/Pin 3** |
+| **CLK (Clock)** | **SCK/Pin 2** |
+| **CS (Chip Select)** | **Pin 1** (on J2 header)        |
+| **VCC** | **5V** |
+| **GND** | **GND** |
 
 I.E 
 
@@ -49,8 +51,7 @@ mosi=Pin(3)
 ```
 
 **Important Notes:**
-* Ensure your **MAX7219 modules are powered via 5V**, not 3.3V, for optimal brightness.
-* **Double-check that you're connecting to the correct ESP32-S3-BOX headers (J2 and J3)** as indicated. These are the general-purpose headers on the back of the device, not the internal display connection.
+* Best to ensure your **MAX7219 modules are powered via 5V**, not 3.3V, for optimal brightness.
 
 ---
 
