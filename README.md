@@ -83,7 +83,7 @@ Here are some ideas to expand the functionality of your scrolling display:
 - **Implement fade effects**: Make text appear and disappear gradually.
 - **Create multiple animation modes**: Switch between different scrolling and display patterns.
 - **Add sensor input for interactive displays**: For example, display different messages based on temperature, light, or button presses.
-- **Include time/date display functionality**: Turn your scrolling display into a compact clock.
+- **Use your own Fun/Inspirational/Educational Text**: Turn your scrolling display into your own custom device. 
 
 ## Credits
 
