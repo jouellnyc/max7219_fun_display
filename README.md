@@ -88,7 +88,7 @@ Here are some ideas to expand the functionality of your scrolling display:
 ## Credits
 
 - **3D Model**: The enclosure design is from [Thingiverse Thing #3154164](https://www.thingiverse.com/thing:3154164) by 'Andrewkuk'.
-- **MAX7219 MicroPython library (mcauser) ** for [the display driver](https://github.com/mcauser/micropython-max7219).
+- **MAX7219 MicroPython library (mcauser)** for [the display driver](https://github.com/mcauser/micropython-max7219).
 - **Health messaging content** for acid reflux awareness, based on Dr. Jonathan Aviv's Acid Watcher Diet.
 
 ## License
