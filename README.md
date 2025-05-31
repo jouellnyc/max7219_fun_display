@@ -29,7 +29,8 @@ Download and print the parts, which typically include:
 
 ### Wiring Diagram
 
-**Connect the MAX7219 modules (chained together) to your ESP32-S3-BOX Lite as follows:**
+**Connect the MAX7219 modules (chained together) to your zero  as follows:**
+
 
 | MAX7219 Pin      | RP2040-Zero Connection        |
 | :--------------- | :---------------------------- |
