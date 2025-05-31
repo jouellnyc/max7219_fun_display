@@ -15,12 +15,12 @@ The structural components for the display unit can be 3D printed. The  `.stl` fi
 * **[MAX7219 Enclosure by 'Andrewkuk'](https://www.thingiverse.com/thing:3154164/files)**
 
 Download and print the parts, which typically include:
-* `front_panel.stl` (for the LED matrices)
-* `back_panel.stl` (for the microcontroller and wiring)
-
+* `cover.stl`
+* `body.stl`
+* 
 ### Required Components
 
-* **RP2040 - Zero** - https://www.waveshare.com/wiki/RP2040-Zero or similarly small microcontroller running micropython
+* **RP2040 - Zero** - (suggested for it's size) - https://www.waveshare.com/wiki/RP2040-Zero or similarly small microcontroller running micropython
 * **4 x MAX7219 8x8 LED Matrix Modules** (often come chained together or with headers for chaining)
 * **Jumper Wires** (male-to-female and male-to-male)
 * **USB-C Cable** (for power and programming)
