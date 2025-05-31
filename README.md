@@ -10,7 +10,7 @@ This project utilizes common MAX7219 8x8 LED matrix modules. The enclosure desig
 
 ### 3D Printed Parts
 
-The structural components for the display unit can be 3D printed. You'll find the necessary `.stl` files at this Thingiverse link:
+The structural components for the display unit can be 3D printed. The  `.stl` files are at this Thingiverse link:
 
 * **[MAX7219 Enclosure by 'Andrewkuk'](https://www.thingiverse.com/thing:3154164/files)**
 
