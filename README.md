@@ -29,8 +29,6 @@ Download and print the parts, which typically include:
 
 ### Wiring Diagram
 
-The ESP32-S3-BOX Lite has a limited number of "safe" and accessible GPIO pins for external SPI communication. Based on extensive testing, the following pinout for a **separate SPI bus (SPI2)** is recommended for the MAX7219 module, using safe and exposed GPIOs on the J2/J3 headers. The internal display (OLED) on your ESP32-S3-BOX uses `SPI(1)` internally.
-
 **Connect the MAX7219 modules (chained together) to your ESP32-S3-BOX Lite as follows:**
 
 | MAX7219 Pin      | RP2040-Zero Connection        |
