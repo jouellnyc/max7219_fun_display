@@ -17,7 +17,7 @@ The structural components for the display unit can be 3D printed. The  `.stl` fi
 Download and print the parts, which typically include:
 * `cover.stl`
 * `body.stl`
-* 
+  
 ### Required Components
 
 * **RP2040 - Zero** - (suggested for it's size) - https://www.waveshare.com/wiki/RP2040-Zero or similarly small microcontroller running micropython
