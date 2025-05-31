@@ -23,7 +23,7 @@ Download and print the parts, which typically include:
 | :------------------------------ | :--------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **RP2040-Zero** | Small microcontroller running MicroPython (suggested for its size)                                   | [Waveshare RP2040-Zero Wiki](https://www.waveshare.com/wiki/RP2040-Zero)                                                                                                  |
 | **4 x MAX7219 8x8 LED Matrix Modules** | Ensure these are chained together                                                                    | [Amazon - MAX7219 Modules](https://www.amazon.com/dp/B0BXDKHZL6?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1)                                                         |
-| **Jumper Wires** | Male-to-female and male-to-male                                                                      |                                                                                                                                                                       |
+| **Jumper Wires** | Female-to-female                                                                       |                                                                                                                                                                       |
 | **USB-C Cable** | For power and programming                                                                            |                                                          
 
 
