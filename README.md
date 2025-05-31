@@ -42,7 +42,7 @@ Download and print the parts, which typically include:
 | :--------------- | :---------------------------- |
 | **DIN (Data In)** | **MOSI/Pin 3** |
 | **CLK (Clock)** | **SCK/Pin 2** |
-| **CS (Chip Select)** | **Pin 1** (on J2 header)        |
+| **CS (Chip Select)** | **Pin 1**       |
 | **VCC** | **5V** |
 | **GND** | **GND** |
 
