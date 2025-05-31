@@ -2,6 +2,10 @@
 
 This repository contains the MicroPython code and instructions to build a scrolling LED matrix display unit. It's designed to continuously display phrases related to Dr. Aviv's Acid Watcher Diet, providing a constant reminder of key principles. The physical unit can be built using 3D-printable parts for a neat, enclosed design.
 
+# Pic
+
+![image](https://github.com/user-attachments/assets/df123fb4-9a84-4340-b4f2-b671de95a387)
+
 ---
 
 ## Hardware Assembly
