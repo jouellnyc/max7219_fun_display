@@ -21,7 +21,7 @@ Download and print the parts, which typically include:
 ### Required Components
 
 * **RP2040 - Zero** - (suggested for it's size) - https://www.waveshare.com/wiki/RP2040-Zero or similarly small microcontroller running micropython
-* **4 x MAX7219 8x8 LED Matrix Modules** (often come chained together or with headers for chaining)
+* **4 x MAX7219 8x8 LED Matrix Modules** (ensure they are chained together) - https://www.amazon.com/dp/B0BXDKHZL6?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1
 * **Jumper Wires** (male-to-female and male-to-male)
 * **USB-C Cable** (for power and programming)
 
