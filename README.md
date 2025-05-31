@@ -68,7 +68,7 @@ Ensure your ESP32-S3-BOX Lite has MicroPython firmware installed. If you're enco
 
 ### Basic Configuration
 
-The main parameters you can adjust to customize the display's behavior are located at the top of your `main.py` file:
+The main parameters you can adjust to customize the display's behavior are located at the top of your `wobble.py` file:
 ```python
 NUM_MATRICES = 4        # Number of 8x8 matrices chained together
 BRIGHTNESS = 1          # Display brightness (0-15, 0 is off, 15 is brightest)
