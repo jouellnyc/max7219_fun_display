@@ -12,22 +12,17 @@ This project utilizes common MAX7219 8x8 LED matrix modules. The enclosure desig
 
 The structural components for the display unit can be 3D printed. You'll find the necessary `.stl` files at this Thingiverse link:
 
-* **[MAX7219 Enclosure by 'TheLastOfTheSith'](https://www.thingiverse.com/thing:3154164/files)**
+* **[MAX7219 Enclosure by 'Andrewkuk'](https://www.thingiverse.com/thing:3154164/files)**
 
 Download and print the parts, which typically include:
 * `front_panel.stl` (for the LED matrices)
 * `back_panel.stl` (for the microcontroller and wiring)
-* `left_panel.stl`
-* `right_panel.stl`
-* `top_panel.stl`
-* `bottom_panel.stl`
 
 ### Required Components
 
-* **ESP32-S3-BOX Lite** (or similar MicroPython compatible board with sufficient exposed GPIOs)
+* **RP2040 - Zero** - https://www.waveshare.com/wiki/RP2040-Zero or similarly small microcontroller running micropython
 * **4 x MAX7219 8x8 LED Matrix Modules** (often come chained together or with headers for chaining)
 * **Jumper Wires** (male-to-female and male-to-male)
-* **Small Screws** (to assemble the 3D printed enclosure)
 * **USB-C Cable** (for power and programming)
 
 ### Wiring Diagram
