@@ -59,6 +59,31 @@ mosi=Pin(3)
 
 Ensure your ESP32-S3-BOX Lite has MicroPython firmware installed. If you're encountering issues, a fresh firmware flash is often a good first step. You can use Thonny IDE's "Install MicroPython" feature or `esptool.py`.
 
-### Project Structure
+### Basic Configuration
 
-Create the following files on your ESP32-S3-BOX Lite:
+The main parameters you can adjust to customize the display's behavior are located at the top of your `main.py` file:
+```python
+NUM_MATRICES = 4        # Number of 8x8 matrices chained together
+BRIGHTNESS = 1          # Display brightness (0-15, 0 is off, 15 is brightest)
+SCROLL_DELAY_MS = 80    # Scroll speed in milliseconds (smaller value = faster scroll)
+```
+
+## Customization Ideas
+
+Here are some ideas to expand the functionality of your scrolling display:
+
+- **Add different scroll directions**: Implement left-to-right, up-down, or diagonal scrolling.
+- **Implement fade effects**: Make text appear and disappear gradually.
+- **Create multiple animation modes**: Switch between different scrolling and display patterns.
+- **Add sensor input for interactive displays**: For example, display different messages based on temperature, light, or button presses.
+- **Include time/date display functionality**: Turn your scrolling display into a compact clock.
+
+## Credits
+
+- **3D Model**: The enclosure design is from [Thingiverse Thing #3154164](https://www.thingiverse.com/thing:3154164) by 'TheLastOfTheSith'.
+- **MAX7219 MicroPython library contributors** for the display driver.
+- **Health messaging content** for acid reflux awareness, based on Dr. Jonathan Aviv's Acid Watcher Diet.
+
+## License
+
+This project is open source. Please credit original sources and this repository when sharing or modifying.
