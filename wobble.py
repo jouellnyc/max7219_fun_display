@@ -1,16 +1,12 @@
-import max7219
 import time
-from machine import Pin, SPI
 
 # --- Pin Definitions ---
 # Adjust these pins if your wiring is different
-from max_7219_config import cs, sck, mosi
+from max_7219_config import display, DISPLAY_WIDTH
 
 # --- Display Configuration ---
-NUM_MATRICES = 4    # Set to the total number of 8x8 matrices
 BRIGHTNESS = 1      # Brightness level (0-15)
 SCROLL_DELAY_MS = 80 # Delay between each scroll step in milliseconds (adjust for speed)
-#TEXT_TO_SCROLL = "PH 5 and No Dirty Dozen!" # Text to scroll, add spaces for smooth looping
 
 MSG= ["Heal Acid Damage",
     "pH over 5",
@@ -46,19 +42,10 @@ MSG= ["Heal Acid Damage",
     "Long-Term Wellness",   
 ]    
     
-# Calculate the total display width and height
-DISPLAY_WIDTH = NUM_MATRICES * 8 # 4 modules * 8 pixels/module = 32 pixels wide
-DISPLAY_HEIGHT = 8               # Standard height for 8x8 matrices
-
-# --- SPI and Display Initialization ---
-spi = SPI(0, baudrate=10000000, polarity=1, phase=0, sck=sck, mosi=mosi)
-display = max7219.Matrix8x8(spi, cs, NUM_MATRICES)
-
 # Set initial display properties
 display.brightness(BRIGHTNESS)
 display.fill(0) # Clear the entire display buffer (all pixels off)
 display.show() # Update the physical display with the empty buffer
-
 
 # --- Vertical Wobble Configuration ---
 # These define how far up/down the text can shift and how fast it moves vertically
@@ -66,6 +53,8 @@ MAX_Y_OFFSET = 2  # Max pixels down from the top (positive value shifts text dow
 MIN_Y_OFFSET = -2 # Max pixels up from the top (negative value shifts text up, causing top clip)
 Y_STEP = 1        # Pixels to move vertically per horizontal step
 
+# Calculate the total display width and height
+DISPLAY_HEIGHT = 8               # Standard height for 8x8 matrices
 current_y_offset = 0 # Starting vertical offset (0 means top-aligned)
 y_direction = Y_STEP # Initial vertical movement direction (start moving down)
 
