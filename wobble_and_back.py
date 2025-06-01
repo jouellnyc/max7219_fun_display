@@ -41,8 +41,6 @@ MSG= ["Heal Acid Damage",
     "Stay Hydrated, Stay Healthy",
     "Long-Term Wellness",   
 ]    
-    
-MSG= ["Heal Acid Damage"]
 
 # Set initial display properties
 display.brightness(BRIGHTNESS)
