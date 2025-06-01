@@ -1,10 +1,20 @@
+#ESP32-Mini
 from machine import Pin, SPI
 import max7219
 
-cs=Pin(1)
-sck=Pin(2)
-mosi=Pin(3)
-spi_bus=0
+from config import device
+if device == "rp2040-zero":
+    print(f"Using {device} config")
+    cs=Pin(7)
+    sck=Pin(4)
+    mosi=Pin(6)
+    spi_bus=1
+else:
+    print(f"Using defaul esp32-mini config")
+    cs=Pin(1)
+    sck=Pin(2)
+    mosi=Pin(3)
+    spi_bus=0
 
 spi = SPI(spi_bus, baudrate=10000000, polarity=1, phase=0, sck=sck, mosi=mosi)
 

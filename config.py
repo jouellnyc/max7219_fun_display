@@ -1,0 +1,1 @@
+device="rp2040-zero"
