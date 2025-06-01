@@ -61,6 +61,7 @@ y_direction = Y_STEP # Initial vertical movement direction (start moving down)
 # --- Main Scrolling Loop ---
 while True:
     for TEXT_TO_SCROLL in MSG:
+        print(TEXT_TO_SCROLL)
         # Outer loop for continuous scrolling
         # Calculate the width of the text in pixels
         text_pixel_width = len(TEXT_TO_SCROLL) * 8
@@ -84,6 +85,6 @@ while True:
                 y_direction = -Y_STEP # Change direction to move up
             elif current_y_offset <= MIN_Y_OFFSET:
                 y_direction = Y_STEP  # Change direction to move down
-            
+             
     # Optional: Add a short delay or fill(0) before the next full scroll cycle starts
     # to give a visual break, though the loop itself is continuous.
