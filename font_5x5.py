@@ -495,6 +495,6 @@ def list_available_chars():
     print(f"Available characters ({len(chars)}): {', '.join(chars)}")
     return chars
 
-if __name__ == "__main__":
+if __name__ == "font_5x5":
     list_available_chars()
     demo_all()
