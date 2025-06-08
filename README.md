@@ -65,7 +65,7 @@ mosi=Pin(3)
 
 ### MicroPython Firmware
 
-Ensure your ESP32-S3-BOX Lite has MicroPython firmware installed. If you're encountering issues, a fresh firmware flash is often a good first step. You can use Thonny IDE's "Install MicroPython" feature or `esptool.py`.
+Ensure your device has MicroPython firmware installed. If you're encountering issues, a fresh firmware flash is often a good first step. You can use Thonny IDE's "Install MicroPython" feature or `esptool.py`.
 
 ### Basic Configuration
 
