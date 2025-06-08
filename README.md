@@ -10,8 +10,8 @@ It's designed to continuously display phrases -- in the case I chose to use text
 |------------|------|
 | **Video** | `https://github.com/jouellnyc/max7219_fun_display/blob/main/w.mp4` |
 
-Note: the 5x5 font and all of the max 7219 code was written entirely by ClaudeAi
 ---
+Note: the 5x5 font and all of the max 7219 code was written entirely by ClaudeAi
 
 ## Hardware Assembly
 
