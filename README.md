@@ -1,6 +1,8 @@
 # MicroPython Scrolling Matrix Display 
 
-This repository contains the MicroPython code and instructions to build a scrolling ('wobbling/jumping') LED matrix display unit (see the video). It's designed to continuously display phrases -- in the case I chose to use text related to Dr. Aviv's Acid Watcher Diet -- providing a constant reminder of key principles. The physical unit can be built using 3D-printable parts for a neat, enclosed design.
+This repository contains the MicroPython code and instructions to build a scrolling ('wobbling/jumping') LED matrix display unit (see the video).
+
+It's designed to continuously display phrases -- in the case I chose to use text related to Dr. Aviv's Acid Watcher Diet -- providing a constant reminder of key principles. The physical unit can be built using 3D-printable parts for a neat, enclosed design.
 
 ![pic](https://github.com/user-attachments/assets/df123fb4-9a84-4340-b4f2-b671de95a387)
 
@@ -8,6 +10,7 @@ This repository contains the MicroPython code and instructions to build a scroll
 |------------|------|
 | **Video** | `https://github.com/jouellnyc/max7219_fun_display/blob/main/w.mp4` |
 
+Note: the 5x5 font and all of the max 7219 code was written entirely by ClaudeAi
 ---
 
 ## Hardware Assembly
